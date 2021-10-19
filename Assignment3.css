@@ -1,0 +1,64 @@
+body{
+    background-color:beige;
+    background-image: linear-gradient(
+        to right top,
+         #202829,
+         #294649, 
+         #2e666a, 
+         #2e888d, 
+         #2aabb0, 
+         #2babae, 
+         #2cabac, 
+         #2dabaa, 
+         #308885, 
+         #2d6763, 
+         #274744, 
+         #1d2a28
+         );
+}
+.user-container{
+    background-color: cornsilk;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10rem;
+    display: flex;
+    gap: 1rem;
+    transition: none;
+}
+.user-container:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 38px -11px rgba(0,0,0,0.75);
+}
+
+.user-avatar{
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+}
+.user-name{
+    font-size: 1.4rem;
+    font-family: 'Kaushan Script', cursive;
+    color: darkmagenta;
+    padding: 1rem;
+}
+/* i{
+ padding-left: 35rem;
+} */
+
+.add-user-name{
+    margin-left: 30px;
+}
+
+h1{
+    color: rgb(102, 78, 91);
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+.user-form{
+    padding: 10px;
+    font-weight: bold;
+}
+.edit-user-form{
+    display: none;
+}
